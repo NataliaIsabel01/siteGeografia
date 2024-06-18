@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2? família=Courier+Prime&family=Roboto+Mono:wght@600&display=swap');
+
+body {
+	background-color: #4A7B9D;
+}
+
+
+.container{
+	width: 80%;
+    background-color: #F2EFE9;
+    padding: 5%;
+	padding-top: 1.5%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+
+}
+
+
+
+/**Barra de navegação**/
+.navbar{
+	font-size: 20px;
+    background-color: #f4c95d;
+    border-radius: 20px;
+}
+
+.nav-item{
+	margin-left: 40px;
+	padding-right: 10px;
+}
+/**Fim**/
+
+.text{
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+

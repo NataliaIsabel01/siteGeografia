@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2? família=Courier+Prime&family=Roboto+Mono:wght@600&display=swap');
+
+body {
+	background-color: #4A7B9D;
+}
+.bodyxd {
+	background-color: #5f6361;
+}
+
+
+.container{
+	width: 80%;
+    background-color: #F2EFE9;
+    padding: 5%;
+	padding-top: 1.5%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+
+}
+
+.containerxd{
+	width: 80%;
+    background-color: #bebebe;
+    padding: 5%;
+	padding-top: 1.5%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+
+}
+
+/**Barra de navegação**/
+.navbar{
+	font-size: 20px;
+    background-color: #f4c95d;
+    border-radius: 20px;
+}
+
+.nav-item{
+	margin-left: 40px;
+	padding-right: 10px;
+}
+/**Fim**/
+
+
+/**Nome dos pontos**/
+h4{
+	text-align: center;
+    color: #24242f;
+    /*background-color: #fdfcdc;*/
+    margin-left: 10px;
+	padding-bottom: 5px;
+    font-size: 35px;
+}
+
+.h4xd{
+	text-align: center;
+    color: #454d4d;
+    margin-left: 10px;
+	padding-bottom: 5px;
+    font-size: 35px;
+}
+/**Fim**/
+
+
+
+/**Texto**/
+p{
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+/**Fim**/
+
+/*subtitulo*/
+h3{
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+/**Titulo animação**/
+  
+  h2 {
+	text-align: center;
+	color: rgb(122, 71, 23);
+	animation-name: example;
+	animation-duration: 3.5s;
+	animation-iteration-count: infinite;
+	font-family: 'Roboto Mono', monoespacial;
+	font-size: 300%;
+    margin-top: 35px;
+  }
+  .h2xd {
+	text-align: center;
+	color: #454d4d;
+	animation-name: example;
+	animation-duration: 3.5s;
+	animation-iteration-count: infinite;
+	font-family: 'Roboto Mono', monoespacial;
+	font-size: 300%;
+    margin-top: 35px;
+  }
+/**Fim**/
+
+
+
+/**Imagens**/
+img{
+	display: flex;
+    height: 50vh;
+    width: 65%;
+	border-radius: 4.5px;
+}
+/**Fim**/
+
+
+
+
+/**Card**/
+.col{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card{
+    background: none;
+    height: 100%;
+    width: 450px;
+	border-radius: 10px;
+}
+
+.card-img-top{
+	padding: 10px;
+}
+/**Fim**/
+
+
+
+/**Botão P._T.**/
+.bottom {
+	display: flex;
+	align-items: center;
+}
+
+.bottom button {
+	border: none;
+	background-color: #000000;
+	padding: 0.50rem;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+.bottom button:hover{
+	color: #000000;
+	background-color: #F5B82E;
+}
+
+.bottom a{
+	text-decoration: none;
+	font-size: 0.93rem;
+	font-weight: 500;
+	color: #fff;
+}
+/**Fim**/
